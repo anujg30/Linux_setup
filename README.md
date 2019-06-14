@@ -3,6 +3,10 @@ This repo consists of basic linux setup. This could be a good starting point if 
 # CHEATS
 
 ## 1. Screen:
+### Why use it?
+1. If user runs multiple tasks simultaneously.
+2. If user wants to keep a task running while the machine closes or logs out etc. (Safe way to run long tasks)
+3. Monitor a task while running other tasks.
 
 ### Basic operation 
 
