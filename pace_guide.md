@@ -1,10 +1,10 @@
-#General Information
+# General Information
 
 `pace-whoami`: returns username, UserID, groups that you are a part of, and queues you have access to.
 
 `pace-check-queue <queue name>`: gives info on resources available for queue, node names, status of queue
 
-#Modules
+# Modules
 
 `module avail <optional module name>`: lists modules (software) available on pace, can provide a module name to search for specific software
 
@@ -12,11 +12,11 @@
 
 `module purge`: gets rid of any modules loaded
 
-#Job Submission
+# Job Submission
 
 `qsub <script.pbs>`: submits PBS script (script that determines resources needed and contiains job to be run) to scheduler.
 
-#Job Control
+# Job Control
 
 `showq`: shows all jobs and status of jobs in queue.
 
@@ -34,10 +34,10 @@
 
 `qselect -u gtusername3|xargs qdel` : deletes all jobs you have in queue. Replace gtusername3 with your gt username
 
-#Check Storage
+# Check Storage
 
 `pace-quota`: gives you a summary of how much storage you have used and how much you have left
 
-#Troubleshooting
+# Troubleshooting
 
 `pace-why-inqueue <jobid>`: diagnoses why a job is stuck in the queue (not running)
