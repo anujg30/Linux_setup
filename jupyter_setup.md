@@ -2,7 +2,7 @@
 
 ## Method 1:
 
-1. To run a session, you can start a basic interactive session using the following command:
+1. To run a session, you can start a basic interactive session using the following command (refer to pace_guide.md):
 `qsub -I -l nodes=1:ppn=1,mem=8gb,walltime=10:00:00 -q iw-shared-6`
  
 2. When you start your Jupyter Notebook session, you'll want to add the following option to the command: --ip=$HOSTNAME. This tells Jupyter Notebook that you will be connecting from a remote address on that compute node:
