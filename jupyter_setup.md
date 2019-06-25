@@ -1,4 +1,4 @@
-# This is how i setup jupyter notebook using pace, WSL and windows setup
+# This is how I setup jupyter notebook using pace, WSL and windows setup
 
 ## Method 1:
 
