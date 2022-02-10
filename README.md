@@ -42,4 +42,4 @@ This repo consists of basic linux setup. This could be a good starting point if 
 
 | Description 				| Command 				|
 |---------------------------------------|---------------------------------------|
-| List file names and edit them | `ls -1 select_certain_files_using_wildcards | sed -e 's/pattern_to_remove//'`		|
+| List file names and edit them | `ls -1 select_certain_files_using_wildcards \| sed -e 's/pattern_to_remove//'`		|
