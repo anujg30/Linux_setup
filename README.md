@@ -18,3 +18,21 @@ This repo consists of basic linux setup. This could be a good starting point if 
 | Attach to a running session with name	| `screen -r <session_name>`		|
 | Detach a running session		| `screen -d <session_name>`		|
 
+## 2. tmux:
+### Why use it?
+1. More functional alternative to SCREEN
+
+### Basic operation
+
+| Description 				| Command 				|
+|---------------------------------------|---------------------------------------|
+| Create a new window (with shell) | `Ctrl+b c`		|
+| Choose window from a list	| `Ctrl+b w`				|
+| Switch to window 0 (by number )		| `Ctrl+b 0`				|
+| Rename the current window	| `Ctrl+b ,`		|
+| Split current pane horizontally into two panes		| `Ctrl+b %`		|
+| Split current pane vertically into two panes| `Ctrl+b "`				|
+|  Go to the next pane		| `Ctrl+b o`				|
+| Toggle between the current and previous pane	| `Ctrl+b ;`		|
+| Close the current pane		| `Ctrl+b x`		|
+
