@@ -36,3 +36,10 @@ This repo consists of basic linux setup. This could be a good starting point if 
 | Toggle between the current and previous pane	| `Ctrl+b ;`		|
 | Close the current pane		| `Ctrl+b x`		|
 
+# Basic commands with helpful usage
+
+## 1. ls
+
+| Description 				| Command 				|
+|---------------------------------------|---------------------------------------|
+| List file names and edit them | `ls -1 <select certain files using wildcards> | sed -e 's/<pattern to remove>$//'`		|
