@@ -43,3 +43,10 @@ This repo consists of basic linux setup. This could be a good starting point if 
 | Description 				| Command 				|
 |---------------------------------------|---------------------------------------|
 | List file names and edit them | `ls -1 select_certain_files_using_wildcards \| sed -e 's/pattern_to_remove//'`		|
+
+## 2. find
+
+| Description 				| Command 				|
+|---------------------------------------|---------------------------------------|
+| Find last modified file in a folder | `find folder_to_find -type f -printf "%T@ %p\n" \| sort -n \| cut -d' ' -f 2- \| tail -n 1`		|
+
